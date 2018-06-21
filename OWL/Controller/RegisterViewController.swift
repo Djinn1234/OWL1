@@ -36,9 +36,6 @@ class RegisterViewController: UIViewController {
                 print ("Succesful Sign up!")
             }
         }
-        
-        //TODO: Set up a new user on our Firbase database
-        
 }
 
 }
