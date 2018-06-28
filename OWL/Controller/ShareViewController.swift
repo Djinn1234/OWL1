@@ -32,7 +32,7 @@ class ShareViewController: UIViewController, UINavigationControllerDelegate, UII
     
     override func viewDidLoad() {
     super.viewDidLoad()
-    }
+        }
     
     @IBAction func onPictureTapped(_ sender: Any) {
         present(imagePicker, animated: true, completion: nil)

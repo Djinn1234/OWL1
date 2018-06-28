@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let myDatabase = Database.database().reference()
         
         myDatabase.setValue("We'got firebase.")
+        
         return true
     }
 

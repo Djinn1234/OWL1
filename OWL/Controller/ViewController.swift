@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
@@ -32,7 +33,17 @@ class ViewController: UIViewController {
         
         // Show the Navigation Bar
         self.navigationController?.setNavigationBarHidden(false, animated: animated)
+        
     }
-
+    
+    @IBAction func LogOutPressed(_ sender: Any) {
+        do {
+           try Auth.auth().signOut()
+            self.performSegue(withIdentifier: "goToProfile", sender: self)
+        } catch {
+            print("error!")
+        }
+    
+    }
 }
 

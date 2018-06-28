@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070A913520E53220003AA92F /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A913420E53220003AA92F /* LogInVC.swift */; };
 		0785B6FE20D831E50021B00D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0785B6FD20D831E50021B00D /* GoogleService-Info.plist */; };
 		0785B70320D867C00021B00D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785B70220D867C00021B00D /* RegisterViewController.swift */; };
 		07C15E3D20D6BAB200939434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C15E3C20D6BAB200939434 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070A913420E53220003AA92F /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		0785B6FD20D831E50021B00D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0785B70220D867C00021B00D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		07C15E3920D6BAB200939434 /* OWL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OWL.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +59,7 @@
 				07C15E4E20D6C31200939434 /* ProfileViewController.swift */,
 				07C15E3E20D6BAB200939434 /* ViewController.swift */,
 				0785B70220D867C00021B00D /* RegisterViewController.swift */,
+				070A913420E53220003AA92F /* LogInVC.swift */,
 				07CDEBFF20DB145200F5A82A /* AddAnEvent.swift */,
 				07CDEC0120DBF49100F5A82A /* ShareViewController.swift */,
 			);
@@ -237,6 +240,7 @@
 				07CDEC0220DBF49100F5A82A /* ShareViewController.swift in Sources */,
 				07C15E4F20D6C31200939434 /* ProfileViewController.swift in Sources */,
 				07C15E3F20D6BAB200939434 /* ViewController.swift in Sources */,
+				070A913520E53220003AA92F /* LogInVC.swift in Sources */,
 				07C15E3D20D6BAB200939434 /* AppDelegate.swift in Sources */,
 				0785B70320D867C00021B00D /* RegisterViewController.swift in Sources */,
 				07CDEC0020DB145200F5A82A /* AddAnEvent.swift in Sources */,

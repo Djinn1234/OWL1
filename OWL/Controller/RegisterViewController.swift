@@ -36,6 +36,7 @@ class RegisterViewController: UIViewController {
                 print ("Succesful Sign up!")
             }
         }
-}
+    }
+    
 
 }
